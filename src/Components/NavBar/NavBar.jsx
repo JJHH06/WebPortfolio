@@ -9,13 +9,13 @@ function NavBar() {
             <div>
               <h3 className="float-md-start mb-0">JJHH</h3>
               <nav className="nav nav-masthead justify-content-center float-md-end">
-                <a className="nav-link active" aria-current="page" href="#acerca-de">
+                <a data-testid="link-acerca-de" className="nav-link active" aria-current="page" href="#acerca-de">
                   Quien Soy
                 </a>
-                <a className="nav-link" href="#curriculum">
+                <a data-testid="link-curriculum" className="nav-link" href="#curriculum">
                   Curriculum
                 </a>
-                <a className="nav-link" href="#proyectos">
+                <a data-testid="link-proyectos" className="nav-link" href="#proyectos">
                   Proyectos
                 </a>
               </nav>
@@ -23,7 +23,7 @@ function NavBar() {
           </header>
 
           <main className="portada-container">
-            <h1 className="display-2">
+            <h1 data-testid="texto-portada" className="display-2">
               <b>Jose Hurtarte</b>
             </h1>
             <p className="lead title-description">
@@ -32,12 +32,6 @@ function NavBar() {
           </main>
         </div>
       </div>
-
-      {/* about */}
-
-      {/* curriculum */}
-
-      {/* trabajos */}
 
     </div>
   );
