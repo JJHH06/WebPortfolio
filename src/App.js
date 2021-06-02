@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-function Scene(){
+function App(){
 
     return (
         <div>
@@ -12,4 +12,4 @@ function Scene(){
     );
 }
 
-export default Scene;
+export default App;
