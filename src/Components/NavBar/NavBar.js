@@ -1,7 +1,6 @@
 import React from 'react';
-
+//para componente 2
 import Retrato from '../../assets/selfie.jpg';
-
 function NavBar(){
 
     return (
@@ -41,7 +40,7 @@ function NavBar(){
                 </div>
             </div>
             <div className="row">
-                <div className="col d-flex"><img className = "retrato-about align-self-center" src = {Retrato}/></div>
+                <div className="col d-flex justify-content-center"><img className = "retrato-about align-self-center" src = {Retrato}/></div>
                 <div className="d-flex align-items-center col-lg-8 mx-auto">
                     <p className = "fw-light fs-3">Mi nombre es José Javier Hurtarte,Tengo 20 años, soy un front y backend developer, apasionado por el diseño. Actualmente soy un estudiante de Ingeniería en Ciencias de la Computación en la Universidad del Valle de Guatemala</p>
                 </div>
@@ -49,7 +48,7 @@ function NavBar(){
             <div className="row">
                 <div className="d-flex justify-content-center col mx-auto">
                     <ul className="list-inline banner-social-buttons">
-                        <li className="list-inline-item">&nbsp;<button className="btn btn-outline-secondary btn-lg btn-default" type="button"><i className="fa fa-google-plus fa-fw"></i><span className="network-name">&nbsp; Google+</span></button></li>
+                        <li className="list-inline-item">&nbsp;<button className="btn btn-outline-secondary btn-lg btn-default" type="button"><i className="fa fa-google-plus fa-fw"></i><span className="network-name">&nbsp; LinkedIn</span></button></li>
                         <li className="list-inline-item">&nbsp;<button className="btn btn-outline-secondary btn-lg btn-default" type="button"><i className="fa fa-twitter fa-fw"></i><span className="network-name">&nbsp;Instagram</span></button></li>
                         <li className="list-inline-item">&nbsp;<button className="btn btn-outline-secondary btn-lg btn-default" type="button"><i className="fa fa-github fa-fw"></i><span className="network-name">&nbsp;github</span></button></li>
                     </ul>
