@@ -24,7 +24,7 @@ resolve: {
         rules: [
             
             {
-                test: /\.(svg|png|jpg|jpeg|gif)$/,
+                test: /\.(svg|png|jpg|jpeg|gif|mp4)$/,
                 use:{
                     loader: "file-loader",
                     options: {

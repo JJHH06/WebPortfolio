@@ -74,12 +74,33 @@ body {
   max-width: 100% !important;
   margin-left: 10% !important;
   margin-right: 10% !important;
+  min-height: 100vh;
+
+}
+.texto-about{
+  text-align: center !important;
+  padding-bottom: 2%;
+  padding-top: 3%;
+
+
 }
 .title-description{
   padding-top: 2%;
 }
 .contenedor-inicial{
   justify-content: center;
+}
+.mb-autont{
+  margin-bottom: 25vh !important;
+}
+
+.bg-portada{
+  background-image: url("./assets/cover.gif") !important;
+  background-size: 100% !important;
+}
+
+.retrato-about{
+  max-width: 25vh;
 }
 
 @import "~bootstrap/scss/bootstrap";
