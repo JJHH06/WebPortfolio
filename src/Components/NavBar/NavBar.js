@@ -47,8 +47,8 @@ function NavBar(){
                 </div>
             </div>
             <div className="row">
-                <div className="col-lg-8 mx-auto d-flex align-items-center">
-                    <ul className="list-inline banner-social-buttons d-flex align-items-center">
+                <div className="d-flex justify-content-center col mx-auto">
+                    <ul className="list-inline banner-social-buttons">
                         <li className="list-inline-item">&nbsp;<button className="btn btn-outline-secondary btn-lg btn-default" type="button"><i className="fa fa-google-plus fa-fw"></i><span className="network-name">&nbsp; Google+</span></button></li>
                         <li className="list-inline-item">&nbsp;<button className="btn btn-outline-secondary btn-lg btn-default" type="button"><i className="fa fa-twitter fa-fw"></i><span className="network-name">&nbsp;Instagram</span></button></li>
                         <li className="list-inline-item">&nbsp;<button className="btn btn-outline-secondary btn-lg btn-default" type="button"><i className="fa fa-github fa-fw"></i><span className="network-name">&nbsp;github</span></button></li>
