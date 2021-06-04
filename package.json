@@ -30,6 +30,7 @@
     "@fortawesome/free-regular-svg-icons": "^5.15.3",
     "@fortawesome/free-solid-svg-icons": "^5.15.3",
     "@fortawesome/react-fontawesome": "^0.1.14",
+    "aos": "^2.3.4",
     "clean-webpack-plugin": "^3.0.0",
     "jquery": "^3.5.1",
     "popper.js": "^1.16.1",
