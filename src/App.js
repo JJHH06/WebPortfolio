@@ -4,6 +4,7 @@ import NavBar from './Components/NavBar/NavBar';
 import Projects from './Components/Projects/Projects';
 import Specs from './Components/Specs/Specs';
 import About from './Components/About/About';
+import Footer from './Components/Footer/Footer';
 
 function App(){
 
@@ -13,6 +14,7 @@ function App(){
             <About/>
             <Specs/>
             <Projects/>
+            <Footer/>
             
             
         </div>

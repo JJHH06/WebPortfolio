@@ -14,7 +14,7 @@ function About() {
         Aos.init({duration: 2000});
     },[]);
   return (
-    <div  className="container">
+    <div id="acerca-de" className="container seccion-portafolio">
       <div data-aos="fade-left" className="row texto-about">
         <div className="col-lg-8  mx-auto">
           <h2 className="display-5">
@@ -40,33 +40,36 @@ function About() {
           <ul className="list-inline banner-social-buttons">
             <li className="list-inline-item">
               &nbsp;
-              <button
+              <a
                 className="btn btn-outline-secondary btn-lg btn-default"
                 type="button"
+                href = "https://www.linkedin.com/in/jos%C3%A9-javier-hurtarte-hern%C3%A1ndez-3110351ba/"
               >
                 <FontAwesomeIcon icon={faLinkedin} />
                 <span className="network-name">&nbsp; LinkedIn</span>
-              </button>
+              </a>
             </li>
             <li className="list-inline-item">
               &nbsp;
-              <button
+              <a
                 className="btn btn-outline-secondary btn-lg btn-default"
                 type="button"
+                href = "https://www.instagram.com/megabruhh/?hl=es-la"
               >
                 <FontAwesomeIcon icon={faInstagram} />
                 <span className="network-name">&nbsp;Instagram</span>
-              </button>
+              </a>
             </li>
             <li className="list-inline-item">
               &nbsp;
-              <button
+              <a
                 className="btn btn-outline-secondary btn-lg btn-default"
                 type="button"
+                href = "https://github.com/JJHH06"
               >
                 <FontAwesomeIcon icon={faGithub} />
                 <span className="network-name">&nbsp;github</span>
-              </button>
+              </a>
             </li>
           </ul>
         </div>

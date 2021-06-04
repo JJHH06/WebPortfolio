@@ -16,13 +16,13 @@ function NavBar() {
             <div>
               <h3 className="float-md-start mb-0">JJHH</h3>
               <nav className="nav nav-masthead justify-content-center float-md-end">
-                <a className="nav-link active" aria-current="page" href="#">
-                  Portada
+                <a className="nav-link active" aria-current="page" href="#acerca-de">
+                Quien Soy
                 </a>
-                <a className="nav-link" href="#">
-                  Quien Soy
+                <a className="nav-link" href="#curriculum">
+                  Curriculum
                 </a>
-                <a className="nav-link" href="#">
+                <a className="nav-link" href="#proyectos">
                   Proyectos
                 </a>
               </nav>

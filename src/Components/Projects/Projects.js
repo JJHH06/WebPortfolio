@@ -1,38 +1,43 @@
-import React from "react";
+import React, {useEffect} from "react";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome' ;
 import {faGithub, faChrome} from '@fortawesome/free-brands-svg-icons';
 import Disney from "../../assets/disney.jpg";
+import MemeMemory from "../../assets/memememory.jpg";
+import SoundSpace from "../../assets/soundspace.jpg";
+import Calculator from "../../assets/Caculator.jpg";
+import Ecommerce from "../../assets/chat.jpg";
+import Odonto from "../../assets/odontología.jpg";
+import Aos from "aos";
+
 
 function Projects() {
+  useEffect(()=>{
+    Aos.init({duration: 2800});
+},[]);
   return (
     <div className="container seccion-portafolio">
-      <div className="row texto-about">
+      <div data-aos="fade-down" className="row texto-about">
         <div className="col-lg-8  mx-auto">
           <h2 className="display-5">
-            <b>Proyectos destacados</b>
+            <b id="proyectos">Proyectos destacados</b>
           </h2>
         </div>
       </div>
       <div className="container">
         <div className="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-          <div className="col">
+          <div data-aos="fade" className="col">
             <div className="card shadow-sm">
-              <svg
+              <img
                 className="bd-placeholder-img card-img-top"
                 width="100%"
                 height="225"
-                xmlns="http://www.w3.org/2000/svg"
+                src={Disney}
                 role="img"
                 aria-label="Placeholder: Thumbnail"
                 preserveAspectRatio="xMidYMid slice"
                 focusable="false"
               >
-                <title>Placeholder</title>
-                <rect width="100%" height="100%" fill="#55595c" />
-                <text x="50%" y="50%" fill="#eceeef" dy=".3em">
-                  Thumbnail
-                </text>
-              </svg>
+              </img>
 
               <div className="card-body">
                 <p className="card-text">
@@ -44,42 +49,41 @@ function Projects() {
                 </p>
                 <div className="d-flex justify-content-between align-items-center">
                   <div className="btn-group">
-                    <button
+                  <a
                       type="button"
                       className="btn btn-sm btn-outline-secondary"
+                      href = "http://stw-uvg.site:3177/"
                     >
-                      View
-                    </button>
-                    <button
+                      <FontAwesomeIcon icon={faChrome} />
+                      &nbsp;Ver
+                    </a>
+                    <a
                       type="button"
                       className="btn btn-sm btn-outline-secondary"
+                      href = "https://github.com/JJHH06/disneyplus-imitation-react"
                     >
-                      Edit
-                    </button>
+                      <FontAwesomeIcon icon={faGithub} />
+                      &nbsp;Repositorio
+                    </a>
                   </div>
                   <small className="text-muted">2021</small>
                 </div>
               </div>
             </div>
           </div>
-          <div className="col">
+          <div data-aos="fade" className="col">
             <div className="card shadow-sm">
-              <svg
+            <img
                 className="bd-placeholder-img card-img-top"
                 width="100%"
                 height="225"
-                xmlns="http://www.w3.org/2000/svg"
+                src={MemeMemory}
                 role="img"
                 aria-label="Placeholder: Thumbnail"
                 preserveAspectRatio="xMidYMid slice"
                 focusable="false"
               >
-                <title>Placeholder</title>
-                <rect width="100%" height="100%" fill="#55595c" />
-                <text x="50%" y="50%" fill="#eceeef" dy=".3em">
-                  Thumbnail
-                </text>
-              </svg>
+              </img>
 
               <div className="card-body">
                 <p className="card-text">
@@ -91,43 +95,41 @@ function Projects() {
                 </p>
                 <div className="d-flex justify-content-between align-items-center">
                   <div className="btn-group">
-                    <button
+                  <a
                       type="button"
                       className="btn btn-sm btn-outline-secondary"
+                      href = "http://stw-uvg.site/labs/lab08/jjhh19707/index.html"
                     >
-                      {" "}
-                      Ver
-                    </button>
-                    <button
+                      <FontAwesomeIcon icon={faChrome} />
+                      &nbsp;Ver
+                    </a>
+                    <a
                       type="button"
                       className="btn btn-sm btn-outline-secondary"
+                      href = "https://github.com/JJHH06/MemoryGameReact"
                     >
-                      Edit
-                    </button>
+                      <FontAwesomeIcon icon={faGithub} />
+                      &nbsp;Repositorio
+                    </a>
                   </div>
                   <small className="text-muted">2021</small>
                 </div>
               </div>
             </div>
           </div>
-          <div className="col">
+          <div data-aos="fade" className="col">
             <div className="card shadow-sm">
-              <svg
+            <img
                 className="bd-placeholder-img card-img-top"
                 width="100%"
                 height="225"
-                xmlns="http://www.w3.org/2000/svg"
+                src={SoundSpace}
                 role="img"
                 aria-label="Placeholder: Thumbnail"
                 preserveAspectRatio="xMidYMid slice"
                 focusable="false"
               >
-                <title>Placeholder</title>
-                <rect width="100%" height="100%" fill="#55595c" />
-                <text x="50%" y="50%" fill="#eceeef" dy=".3em">
-                  Thumbnail
-                </text>
-              </svg>
+              </img>
 
               <div className="card-body">
                 <p className="card-text">
@@ -139,18 +141,14 @@ function Projects() {
                 </p>
                 <div className="d-flex justify-content-between align-items-center">
                   <div className="btn-group">
-                    <button
+                    <a
                       type="button"
                       className="btn btn-sm btn-outline-secondary"
+                      href = "https://github.com/Andrei-Portales/proyecto_1_basededatos"
                     >
-                      View
-                    </button>
-                    <button
-                      type="button"
-                      className="btn btn-sm btn-outline-secondary"
-                    >
-                      Edit
-                    </button>
+                      <FontAwesomeIcon icon={faGithub} />
+                      &nbsp;Repositorio
+                    </a>
                   </div>
                   <small className="text-muted">2021</small>
                 </div>
@@ -158,24 +156,19 @@ function Projects() {
             </div>
           </div>
 
-          <div className="col">
+          <div data-aos="fade" className="col">
             <div className="card shadow-sm">
-              <svg
+            <img
                 className="bd-placeholder-img card-img-top"
                 width="100%"
                 height="225"
-                xmlns="http://www.w3.org/2000/svg"
+                src={Calculator}
                 role="img"
                 aria-label="Placeholder: Thumbnail"
                 preserveAspectRatio="xMidYMid slice"
                 focusable="false"
               >
-                <title>Placeholder</title>
-                <rect width="100%" height="100%" fill="#55595c" />
-                <text x="50%" y="50%" fill="#eceeef" dy=".3em">
-                  Thumbnail
-                </text>
-              </svg>
+              </img>
 
               <div className="card-body">
                 <p className="card-text">
@@ -188,42 +181,41 @@ function Projects() {
                 </p>
                 <div className="d-flex justify-content-between align-items-center">
                   <div className="btn-group">
-                    <button
+                  <a
                       type="button"
                       className="btn btn-sm btn-outline-secondary"
+                      href = "http://stw-uvg.site/labs/lab10/jjhh19707/index.html"
                     >
-                      View
-                    </button>
-                    <button
+                      <FontAwesomeIcon icon={faChrome} />
+                      &nbsp;Ver
+                    </a>
+                    <a
                       type="button"
                       className="btn btn-sm btn-outline-secondary"
+                      href = "https://github.com/JJHH06/responsive-react-calculator"
                     >
-                      Edit
-                    </button>
+                      <FontAwesomeIcon icon={faGithub} />
+                      &nbsp;Repositorio
+                    </a>
                   </div>
                   <small className="text-muted">2021</small>
                 </div>
               </div>
             </div>
           </div>
-          <div className="col">
+          <div data-aos="fade" className="col">
             <div className="card shadow-sm">
-              <svg
+            <img
                 className="bd-placeholder-img card-img-top"
                 width="100%"
                 height="225"
-                xmlns="http://www.w3.org/2000/svg"
+                src={Ecommerce}
                 role="img"
                 aria-label="Placeholder: Thumbnail"
                 preserveAspectRatio="xMidYMid slice"
                 focusable="false"
               >
-                <title>Placeholder</title>
-                <rect width="100%" height="100%" fill="#55595c" />
-                <text x="50%" y="50%" fill="#eceeef" dy=".3em">
-                  Thumbnail
-                </text>
-              </svg>
+              </img>
 
               <div className="card-body">
                 <p className="card-text">
@@ -236,37 +228,41 @@ function Projects() {
                 </p>
                 <div className="d-flex justify-content-between align-items-center">
                   <div className="btn-group">
-                    <button
+                    <a
                       type="button"
                       className="btn btn-sm btn-outline-secondary"
+                      href = "https://proyecto2dev.stw-uvg.site/"
+                    >
+                      <FontAwesomeIcon icon={faChrome} />
+                      &nbsp;Ver
+                    </a>
+                    <a
+                      type="button"
+                      className="btn btn-sm btn-outline-secondary"
+                      href = "https://github.com/El-Mendez/Web_Proyecto2_Chat"
                     >
                       <FontAwesomeIcon icon={faGithub} />
-                      &nbsp;Ver
-                    </button>
+                      &nbsp;Repositorio
+                    </a>
                   </div>
                   <small className="text-muted">2021</small>
                 </div>
               </div>
             </div>
           </div>
-          <div className="col">
+          <div data-aos="fade" className="col">
             <div className="card shadow-sm">
-              <svg
+            <img
                 className="bd-placeholder-img card-img-top"
                 width="100%"
                 height="225"
-                xmlns="http://www.w3.org/2000/svg"
+                src={Odonto}
                 role="img"
                 aria-label="Placeholder: Thumbnail"
                 preserveAspectRatio="xMidYMid slice"
                 focusable="false"
               >
-                <title>Placeholder</title>
-                <rect width="100%" height="100%" fill="#55595c" />
-                <text x="50%" y="50%" fill="#eceeef" dy=".3em">
-                  Thumbnail
-                </text>
-              </svg>
+              </img>
 
               <div className="card-body">
                 <p className="card-text">
@@ -281,18 +277,7 @@ function Projects() {
                 </p>
                 <div className="d-flex justify-content-between align-items-center">
                   <div className="btn-group">
-                    <button
-                      type="button"
-                      className="btn btn-sm btn-outline-secondary"
-                    >
-                      View
-                    </button>
-                    <button
-                      type="button"
-                      className="btn btn-sm btn-outline-secondary"
-                    >
-                      Edit
-                    </button>
+                    
                   </div>
                   <small className="text-muted">2021</small>
                 </div>
