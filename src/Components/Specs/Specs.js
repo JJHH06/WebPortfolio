@@ -1,9 +1,12 @@
-import React from 'react';
-
+import React,{useEffect} from 'react';
+import Aos from "aos";
 function Specs() {
+    useEffect(()=>{
+        Aos.init({duration: 2000});
+    },[]);
   return (
     <div className="container seccion-portafolio">
-      <div className="row texto-about">
+      <div data-aos="fade" className="row texto-about">
         <div className="col-lg-8  mx-auto">
           <h2 className="display-5">
             <b>Logros y Habilidades</b>
@@ -11,8 +14,8 @@ function Specs() {
         </div>
       </div>
       <div className="row">
-        <div className="d-flex align-items-center col mx-auto list-group">
-          <a href="#" className="list-group-item list-group-item-action">
+        <div  className="d-flex align-items-center col mx-auto list-group">
+          <a href="#" data-aos="fade-right" className="list-group-item list-group-item-action">
             <div className="d-flex w-100 justify-content-between">
               <h5 className="mb-1">Galardon académico de la Riva</h5>
               <small className="text-muted">2018</small>
@@ -25,7 +28,7 @@ function Specs() {
             </small>
           </a>
 
-          <a href="#" className="list-group-item list-group-item-action">
+          <a href="#" data-aos="fade-right" className="list-group-item list-group-item-action">
             <div className="d-flex w-100 justify-content-between">
               <h5 className="mb-1">Ingeniería en Ciencias de la Computación</h5>
               <small className="text-muted">2019-2023</small>
@@ -36,7 +39,7 @@ function Specs() {
             </small>
           </a>
 
-          <a href="#" className="list-group-item list-group-item-action">
+          <a href="#" data-aos="fade-right" className="list-group-item list-group-item-action">
             <div className="d-flex w-100 justify-content-between">
               <h5 className="mb-1">Beca Fundación Educación</h5>
               <small className="text-muted">2020</small>
@@ -49,7 +52,7 @@ function Specs() {
             </small>
           </a>
 
-          <a href="#" className="list-group-item list-group-item-action">
+          <a href="#" data-aos="fade-right" className="list-group-item list-group-item-action">
             <div className="d-flex w-100 justify-content-between">
               <h5 className="mb-1">
                 Distinción Académica de Estudiante Distinguido
@@ -62,7 +65,7 @@ function Specs() {
             </small>
           </a>
 
-          <a href="#" className="list-group-item list-group-item-action">
+          <a href="#" data-aos="fade-right" className="list-group-item list-group-item-action">
             <div className="d-flex w-100 justify-content-between">
               <h5 className="mb-1">
                 Auxiliar Algoritmos y Programación Básica
@@ -76,7 +79,7 @@ function Specs() {
             </small>
           </a>
 
-          <a href="#" className="list-group-item list-group-item-action">
+          <a href="#" data-aos="fade-right" className="list-group-item list-group-item-action">
             <div className="d-flex w-100 justify-content-between">
               <h5 className="mb-1">
                 Distinción Académica Honor al mérito académico
@@ -90,7 +93,7 @@ function Specs() {
           </a>
         </div>
         <div className="d-flex align-items-center col mx-auto list-group">
-          <a href="#" className="list-group-item list-group-item-action">
+          <a data-aos="fade-left" href="#" className="list-group-item list-group-item-action">
             <p className="mb-1">Python:</p>
 
             <div className="progress">
@@ -103,7 +106,7 @@ function Specs() {
               ></div>
             </div>
           </a>
-          <a href="#" className="list-group-item list-group-item-action">
+          <a data-aos="fade-left" href="#" className="list-group-item list-group-item-action">
             <p className="mb-1">Java:</p>
 
             <div className="progress">
@@ -116,7 +119,7 @@ function Specs() {
               ></div>
             </div>
           </a>
-          <a href="#" className="list-group-item list-group-item-action">
+          <a data-aos="fade-left" href="#" className="list-group-item list-group-item-action">
             <p className="mb-1">React:</p>
 
             <div className="progress">
@@ -129,7 +132,7 @@ function Specs() {
               ></div>
             </div>
           </a>
-          <a href="#" className="list-group-item list-group-item-action">
+          <a data-aos="fade-left" href="#" className="list-group-item list-group-item-action">
             <p className="mb-1">Javascript:</p>
 
             <div className="progress">
@@ -142,7 +145,7 @@ function Specs() {
               ></div>
             </div>
           </a>
-          <a href="#" className="list-group-item list-group-item-action">
+          <a data-aos="fade-left" href="#" className="list-group-item list-group-item-action">
             <p className="mb-1">Flutter:</p>
 
             <div className="progress">
@@ -155,7 +158,7 @@ function Specs() {
               ></div>
             </div>
           </a>
-          <a href="#" className="list-group-item list-group-item-action">
+          <a data-aos="fade-left" href="#" className="list-group-item list-group-item-action">
             <p className="mb-1">C++:</p>
 
             <div className="progress">
@@ -168,7 +171,7 @@ function Specs() {
               ></div>
             </div>
           </a>
-          <a href="#" className="list-group-item list-group-item-action">
+          <a data-aos="fade-left" href="#" className="list-group-item list-group-item-action">
             <p className="mb-1">C#:</p>
 
             <div className="progress">
@@ -181,7 +184,7 @@ function Specs() {
               ></div>
             </div>
           </a>
-          <a href="#" className="list-group-item list-group-item-action">
+          <a data-aos="fade-left" href="#" className="list-group-item list-group-item-action">
             <p className="mb-1">Kotlin:</p>
 
             <div className="progress">
@@ -194,7 +197,7 @@ function Specs() {
               ></div>
             </div>
           </a>
-          <a href="#" className="list-group-item list-group-item-action">
+          <a data-aos="fade-left" href="#" className="list-group-item list-group-item-action">
             <p className="mb-1">Express:</p>
 
             <div className="progress">
@@ -207,7 +210,7 @@ function Specs() {
               ></div>
             </div>
           </a>
-          <a href="#" className="list-group-item list-group-item-action">
+          <a data-aos="fade-left" href="#" className="list-group-item list-group-item-action">
             <p className="mb-1">SQL:</p>
 
             <div className="progress">

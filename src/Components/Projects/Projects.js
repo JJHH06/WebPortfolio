@@ -1,7 +1,7 @@
 import React from "react";
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome' ;
 import {faGithub, faChrome} from '@fortawesome/free-brands-svg-icons';
-
+import Disney from "../../assets/disney.jpg";
 
 function Projects() {
   return (
