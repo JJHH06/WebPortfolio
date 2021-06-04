@@ -6,21 +6,18 @@ import Specs from './Components/Specs/Specs';
 import About from './Components/About/About';
 import Footer from './Components/Footer/Footer';
 
-function App(){
+function App() {
+  return (
+    <div>
+      <NavBar />
+      <About />
+      <Specs />
+      <Projects />
+      <Footer />
 
-    return (
-        <div>
-            <NavBar/>
-            <About/>
-            <Specs/>
-            <Projects/>
-            <Footer/>
-            
-            
-        </div>
+    </div>
 
-        
-    );
+  );
 }
 
 export default App;

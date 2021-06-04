@@ -1,9 +1,12 @@
-import React,{useEffect} from 'react';
-import Aos from "aos";
+/* eslint-disable jsx-a11y/control-has-associated-label */
+/* eslint-disable jsx-a11y/anchor-is-valid */ /* Sino no sirve la navegación xd */
+import React, { useEffect } from 'react';
+import Aos from 'aos';
+
 function Specs() {
-    useEffect(()=>{
-        Aos.init({duration: 2000});
-    },[]);
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
   return (
     <div id="curriculum" className="container seccion-portafolio">
       <div data-aos="fade" className="row texto-about">
@@ -14,8 +17,8 @@ function Specs() {
         </div>
       </div>
       <div className="row">
-        <div  className="d-flex align-items-center col mx-auto list-group">
-          <a   data-aos="fade-right" className="list-group-item list-group-item-action">
+        <div className="d-flex align-items-center col mx-auto list-group">
+          <a data-aos="fade-right" className="list-group-item list-group-item-action">
             <div className="d-flex w-100 justify-content-between">
               <h5 className="mb-1">Galardon académico de la Riva</h5>
               <small className="text-muted">2018</small>
@@ -28,7 +31,7 @@ function Specs() {
             </small>
           </a>
 
-          <a   data-aos="fade-right" className="list-group-item list-group-item-action">
+          <a data-aos="fade-right" className="list-group-item list-group-item-action">
             <div className="d-flex w-100 justify-content-between">
               <h5 className="mb-1">Ingeniería en Ciencias de la Computación</h5>
               <small className="text-muted">2019-2023</small>
@@ -39,20 +42,21 @@ function Specs() {
             </small>
           </a>
 
-          <a   data-aos="fade-right" className="list-group-item list-group-item-action">
+          <a data-aos="fade-right" className="list-group-item list-group-item-action">
             <div className="d-flex w-100 justify-content-between">
               <h5 className="mb-1">Beca Fundación Educación</h5>
               <small className="text-muted">2020</small>
             </div>
             <p className="mb-1">
-              Dada por la organización suiza Fundación educación{" "}
+              Dada por la organización suiza Fundación educación
+              {' '}
             </p>
             <small className="text-muted">
               Beca completa dada a alumnos destacados en carreras tecnológicas
             </small>
           </a>
 
-          <a   data-aos="fade-right" className="list-group-item list-group-item-action">
+          <a data-aos="fade-right" className="list-group-item list-group-item-action">
             <div className="d-flex w-100 justify-content-between">
               <h5 className="mb-1">
                 Distinción Académica de Estudiante Distinguido
@@ -65,7 +69,7 @@ function Specs() {
             </small>
           </a>
 
-          <a   data-aos="fade-right" className="list-group-item list-group-item-action">
+          <a data-aos="fade-right" className="list-group-item list-group-item-action">
             <div className="d-flex w-100 justify-content-between">
               <h5 className="mb-1">
                 Auxiliar Algoritmos y Programación Básica
@@ -79,7 +83,7 @@ function Specs() {
             </small>
           </a>
 
-          <a   data-aos="fade-right" className="list-group-item list-group-item-action">
+          <a data-aos="fade-right" className="list-group-item list-group-item-action">
             <div className="d-flex w-100 justify-content-between">
               <h5 className="mb-1">
                 Distinción Académica Honor al mérito académico
@@ -93,7 +97,7 @@ function Specs() {
           </a>
         </div>
         <div className="d-flex align-items-center col mx-auto list-group">
-          <a data-aos="fade-left"   className="list-group-item list-group-item-action">
+          <a data-aos="fade-left" className="list-group-item list-group-item-action">
             <p className="mb-1">Python:</p>
 
             <div className="progress">
@@ -103,10 +107,10 @@ function Specs() {
                 aria-valuenow="100"
                 aria-valuemin="0"
                 aria-valuemax="100"
-              ></div>
+              />
             </div>
           </a>
-          <a data-aos="fade-left"   className="list-group-item list-group-item-action">
+          <a data-aos="fade-left" className="list-group-item list-group-item-action">
             <p className="mb-1">Java:</p>
 
             <div className="progress">
@@ -116,10 +120,10 @@ function Specs() {
                 aria-valuenow="100"
                 aria-valuemin="0"
                 aria-valuemax="100"
-              ></div>
+              />
             </div>
           </a>
-          <a data-aos="fade-left"   className="list-group-item list-group-item-action">
+          <a data-aos="fade-left" className="list-group-item list-group-item-action">
             <p className="mb-1">React:</p>
 
             <div className="progress">
@@ -129,10 +133,10 @@ function Specs() {
                 aria-valuenow="100"
                 aria-valuemin="0"
                 aria-valuemax="100"
-              ></div>
+              />
             </div>
           </a>
-          <a data-aos="fade-left"   className="list-group-item list-group-item-action">
+          <a data-aos="fade-left" className="list-group-item list-group-item-action">
             <p className="mb-1">Javascript:</p>
 
             <div className="progress">
@@ -142,10 +146,10 @@ function Specs() {
                 aria-valuenow="100"
                 aria-valuemin="0"
                 aria-valuemax="100"
-              ></div>
+              />
             </div>
           </a>
-          <a data-aos="fade-left"   className="list-group-item list-group-item-action">
+          <a data-aos="fade-left" className="list-group-item list-group-item-action">
             <p className="mb-1">Flutter:</p>
 
             <div className="progress">
@@ -155,10 +159,10 @@ function Specs() {
                 aria-valuenow="55"
                 aria-valuemin="0"
                 aria-valuemax="100"
-              ></div>
+              />
             </div>
           </a>
-          <a data-aos="fade-left"   className="list-group-item list-group-item-action">
+          <a data-aos="fade-left" className="list-group-item list-group-item-action">
             <p className="mb-1">C++:</p>
 
             <div className="progress">
@@ -168,10 +172,10 @@ function Specs() {
                 aria-valuenow="70"
                 aria-valuemin="0"
                 aria-valuemax="100"
-              ></div>
+              />
             </div>
           </a>
-          <a data-aos="fade-left"   className="list-group-item list-group-item-action">
+          <a data-aos="fade-left" className="list-group-item list-group-item-action">
             <p className="mb-1">C#:</p>
 
             <div className="progress">
@@ -181,10 +185,10 @@ function Specs() {
                 aria-valuenow="80"
                 aria-valuemin="0"
                 aria-valuemax="100"
-              ></div>
+              />
             </div>
           </a>
-          <a data-aos="fade-left"   className="list-group-item list-group-item-action">
+          <a data-aos="fade-left" className="list-group-item list-group-item-action">
             <p className="mb-1">Kotlin:</p>
 
             <div className="progress">
@@ -194,10 +198,10 @@ function Specs() {
                 aria-valuenow="55"
                 aria-valuemin="0"
                 aria-valuemax="100"
-              ></div>
+              />
             </div>
           </a>
-          <a data-aos="fade-left"   className="list-group-item list-group-item-action">
+          <a data-aos="fade-left" className="list-group-item list-group-item-action">
             <p className="mb-1">Express:</p>
 
             <div className="progress">
@@ -207,10 +211,10 @@ function Specs() {
                 aria-valuenow="60"
                 aria-valuemin="0"
                 aria-valuemax="100"
-              ></div>
+              />
             </div>
           </a>
-          <a data-aos="fade-left"   className="list-group-item list-group-item-action">
+          <a data-aos="fade-left" className="list-group-item list-group-item-action">
             <p className="mb-1">SQL:</p>
 
             <div className="progress">
@@ -220,7 +224,7 @@ function Specs() {
                 aria-valuenow="100"
                 aria-valuemin="0"
                 aria-valuemax="100"
-              ></div>
+              />
             </div>
           </a>
         </div>

@@ -1,11 +1,4 @@
-import React from "react";
-//para componente 2
-import Retrato from "../../assets/selfie.jpg";
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome' ;
-import {faGithub, faLinkedin, faInstagram} from '@fortawesome/free-brands-svg-icons';
-//import Aos from "aos";
-//import "aos/dist/aos";
-
+import React from 'react';
 
 function NavBar() {
   return (
@@ -17,7 +10,7 @@ function NavBar() {
               <h3 className="float-md-start mb-0">JJHH</h3>
               <nav className="nav nav-masthead justify-content-center float-md-end">
                 <a className="nav-link active" aria-current="page" href="#acerca-de">
-                Quien Soy
+                  Quien Soy
                 </a>
                 <a className="nav-link" href="#curriculum">
                   Curriculum
@@ -41,15 +34,11 @@ function NavBar() {
       </div>
 
       {/* about */}
-      
 
       {/* curriculum */}
 
-      
-
-
       {/* trabajos */}
-      
+
     </div>
   );
 }

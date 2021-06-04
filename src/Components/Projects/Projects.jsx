@@ -1,19 +1,18 @@
-import React, {useEffect} from "react";
-import {FontAwesomeIcon} from '@fortawesome/react-fontawesome' ;
-import {faGithub, faChrome} from '@fortawesome/free-brands-svg-icons';
-import Disney from "../../assets/disney.jpg";
-import MemeMemory from "../../assets/memememory.jpg";
-import SoundSpace from "../../assets/soundspace.jpg";
-import Calculator from "../../assets/Caculator.jpg";
-import Ecommerce from "../../assets/chat.jpg";
-import Odonto from "../../assets/odontología.jpg";
-import Aos from "aos";
-
+import React, { useEffect } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub, faChrome } from '@fortawesome/free-brands-svg-icons';
+import Aos from 'aos';
+import Disney from '../../assets/disney.jpg';
+import MemeMemory from '../../assets/memememory.jpg';
+import SoundSpace from '../../assets/soundspace.jpg';
+import Calculator from '../../assets/Caculator.jpg';
+import Ecommerce from '../../assets/chat.jpg';
+import Odonto from '../../assets/odontología.jpg';
 
 function Projects() {
-  useEffect(()=>{
-    Aos.init({duration: 2800});
-},[]);
+  useEffect(() => {
+    Aos.init({ duration: 2800 });
+  }, []);
   return (
     <div className="container seccion-portafolio">
       <div data-aos="fade-down" className="row texto-about">
@@ -28,16 +27,15 @@ function Projects() {
           <div data-aos="fade" className="col">
             <div className="card shadow-sm">
               <img
+                alt="proyecto"
                 className="bd-placeholder-img card-img-top"
                 width="100%"
                 height="225"
                 src={Disney}
-                role="img"
                 aria-label="Placeholder: Thumbnail"
                 preserveAspectRatio="xMidYMid slice"
                 focusable="false"
-              >
-              </img>
+              />
 
               <div className="card-body">
                 <p className="card-text">
@@ -49,10 +47,10 @@ function Projects() {
                 </p>
                 <div className="d-flex justify-content-between align-items-center">
                   <div className="btn-group">
-                  <a
+                    <a
                       type="button"
                       className="btn btn-sm btn-outline-secondary"
-                      href = "http://stw-uvg.site:3177/"
+                      href="http://stw-uvg.site:3177/"
                     >
                       <FontAwesomeIcon icon={faChrome} />
                       &nbsp;Ver
@@ -60,7 +58,7 @@ function Projects() {
                     <a
                       type="button"
                       className="btn btn-sm btn-outline-secondary"
-                      href = "https://github.com/JJHH06/disneyplus-imitation-react"
+                      href="https://github.com/JJHH06/disneyplus-imitation-react"
                     >
                       <FontAwesomeIcon icon={faGithub} />
                       &nbsp;Repositorio
@@ -73,17 +71,16 @@ function Projects() {
           </div>
           <div data-aos="fade" className="col">
             <div className="card shadow-sm">
-            <img
+              <img
+                alt="proyecto"
                 className="bd-placeholder-img card-img-top"
                 width="100%"
                 height="225"
                 src={MemeMemory}
-                role="img"
                 aria-label="Placeholder: Thumbnail"
                 preserveAspectRatio="xMidYMid slice"
                 focusable="false"
-              >
-              </img>
+              />
 
               <div className="card-body">
                 <p className="card-text">
@@ -95,10 +92,10 @@ function Projects() {
                 </p>
                 <div className="d-flex justify-content-between align-items-center">
                   <div className="btn-group">
-                  <a
+                    <a
                       type="button"
                       className="btn btn-sm btn-outline-secondary"
-                      href = "http://stw-uvg.site/labs/lab08/jjhh19707/index.html"
+                      href="http://stw-uvg.site/labs/lab08/jjhh19707/index.html"
                     >
                       <FontAwesomeIcon icon={faChrome} />
                       &nbsp;Ver
@@ -106,7 +103,7 @@ function Projects() {
                     <a
                       type="button"
                       className="btn btn-sm btn-outline-secondary"
-                      href = "https://github.com/JJHH06/MemoryGameReact"
+                      href="https://github.com/JJHH06/MemoryGameReact"
                     >
                       <FontAwesomeIcon icon={faGithub} />
                       &nbsp;Repositorio
@@ -119,17 +116,16 @@ function Projects() {
           </div>
           <div data-aos="fade" className="col">
             <div className="card shadow-sm">
-            <img
+              <img
+                alt="proyecto"
                 className="bd-placeholder-img card-img-top"
                 width="100%"
                 height="225"
                 src={SoundSpace}
-                role="img"
                 aria-label="Placeholder: Thumbnail"
                 preserveAspectRatio="xMidYMid slice"
                 focusable="false"
-              >
-              </img>
+              />
 
               <div className="card-body">
                 <p className="card-text">
@@ -144,7 +140,7 @@ function Projects() {
                     <a
                       type="button"
                       className="btn btn-sm btn-outline-secondary"
-                      href = "https://github.com/Andrei-Portales/proyecto_1_basededatos"
+                      href="https://github.com/Andrei-Portales/proyecto_1_basededatos"
                     >
                       <FontAwesomeIcon icon={faGithub} />
                       &nbsp;Repositorio
@@ -158,17 +154,16 @@ function Projects() {
 
           <div data-aos="fade" className="col">
             <div className="card shadow-sm">
-            <img
+              <img
+                alt="proyecto"
                 className="bd-placeholder-img card-img-top"
                 width="100%"
                 height="225"
                 src={Calculator}
-                role="img"
                 aria-label="Placeholder: Thumbnail"
                 preserveAspectRatio="xMidYMid slice"
                 focusable="false"
-              >
-              </img>
+              />
 
               <div className="card-body">
                 <p className="card-text">
@@ -181,10 +176,10 @@ function Projects() {
                 </p>
                 <div className="d-flex justify-content-between align-items-center">
                   <div className="btn-group">
-                  <a
+                    <a
                       type="button"
                       className="btn btn-sm btn-outline-secondary"
-                      href = "http://stw-uvg.site/labs/lab10/jjhh19707/index.html"
+                      href="http://stw-uvg.site/labs/lab10/jjhh19707/index.html"
                     >
                       <FontAwesomeIcon icon={faChrome} />
                       &nbsp;Ver
@@ -192,7 +187,7 @@ function Projects() {
                     <a
                       type="button"
                       className="btn btn-sm btn-outline-secondary"
-                      href = "https://github.com/JJHH06/responsive-react-calculator"
+                      href="https://github.com/JJHH06/responsive-react-calculator"
                     >
                       <FontAwesomeIcon icon={faGithub} />
                       &nbsp;Repositorio
@@ -205,17 +200,16 @@ function Projects() {
           </div>
           <div data-aos="fade" className="col">
             <div className="card shadow-sm">
-            <img
+              <img
+                alt="proyecto"
                 className="bd-placeholder-img card-img-top"
                 width="100%"
                 height="225"
                 src={Ecommerce}
-                role="img"
                 aria-label="Placeholder: Thumbnail"
                 preserveAspectRatio="xMidYMid slice"
                 focusable="false"
-              >
-              </img>
+              />
 
               <div className="card-body">
                 <p className="card-text">
@@ -231,7 +225,7 @@ function Projects() {
                     <a
                       type="button"
                       className="btn btn-sm btn-outline-secondary"
-                      href = "https://proyecto2dev.stw-uvg.site/"
+                      href="https://proyecto2dev.stw-uvg.site/"
                     >
                       <FontAwesomeIcon icon={faChrome} />
                       &nbsp;Ver
@@ -239,7 +233,7 @@ function Projects() {
                     <a
                       type="button"
                       className="btn btn-sm btn-outline-secondary"
-                      href = "https://github.com/El-Mendez/Web_Proyecto2_Chat"
+                      href="https://github.com/El-Mendez/Web_Proyecto2_Chat"
                     >
                       <FontAwesomeIcon icon={faGithub} />
                       &nbsp;Repositorio
@@ -252,21 +246,20 @@ function Projects() {
           </div>
           <div data-aos="fade" className="col">
             <div className="card shadow-sm">
-            <img
+              <img
+                alt="proyecto"
                 className="bd-placeholder-img card-img-top"
                 width="100%"
                 height="225"
                 src={Odonto}
-                role="img"
                 aria-label="Placeholder: Thumbnail"
                 preserveAspectRatio="xMidYMid slice"
                 focusable="false"
-              >
-              </img>
+              />
 
               <div className="card-body">
                 <p className="card-text">
-                  <b></b>
+                  <b />
                 </p>
                 <p className="card-text">
                   <b>Sistema Odontológico</b>
@@ -276,9 +269,7 @@ function Projects() {
                   citas. Realizado con Express y React.
                 </p>
                 <div className="d-flex justify-content-between align-items-center">
-                  <div className="btn-group">
-                    
-                  </div>
+                  <div className="btn-group" />
                   <small className="text-muted">2021</small>
                 </div>
               </div>
