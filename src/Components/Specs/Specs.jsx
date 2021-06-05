@@ -111,7 +111,7 @@ function Specs() {
             </div>
           </a>
           <a data-aos="fade-left" className="list-group-item list-group-item-action">
-            <p className="mb-1">Java:</p>
+            <p data-testid="progress-text" className="mb-1">Java:</p>
 
             <div className="progress">
               <div

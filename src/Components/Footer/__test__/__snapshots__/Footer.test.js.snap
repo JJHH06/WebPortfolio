@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div
+  className="page-footer text-white-50 footer-portafolio"
+  data-testid="footer"
+>
+  <br />
+      © Jose Hurtarte
+  <p
+    className="text-white"
+  >
+        hur19707@uvg.edu.gt
+  </p>
+</div>
+`;
